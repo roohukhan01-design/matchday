@@ -1,0 +1,29 @@
+Fix ONLY style and code quality issues.
+
+Rules:
+
+- Do NOT change architecture.
+- Do NOT add features.
+- Do NOT remove features.
+- Do NOT change public APIs.
+- Do NOT modify behavior.
+- Do NOT break tests.
+
+Tasks:
+
+1. Fix all Ruff warnings automatically where safe.
+2. Fix mypy type annotations.
+3. Remove dead code and unused imports.
+4. Format the code consistently.
+5. Improve docstrings where missing.
+6. Keep every existing test passing.
+7. Run:
+   - ruff check . --fix
+   - ruff format .
+   - mypy .
+   - pytest
+
+Provide:
+- Number of warnings fixed
+- Remaining warnings (if any)
+- Confirmation that all tests still pass
